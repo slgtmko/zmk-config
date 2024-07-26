@@ -11,7 +11,7 @@ endif
 if SHIELD_DACTYL_MANUFORM_5x6_RIGHT
 
     config ZMK_KEYBOARD_NAME
-        default "TAIKO-DACTYL-R"
+        default "NABEEL-DACTYL-R"
 
 endif
 
