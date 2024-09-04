@@ -44,11 +44,11 @@
 
         raise_layer {
             bindings = <
-&kp TILDE  &kp SINGLE_QUOTE  &trans  &trans  &trans      &trans         &trans          &trans                &trans                 &trans      &trans      &kp DEL
-&trans     &trans            &trans  &trans  &trans      &trans         &kp TILDE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS    &trans      &kp K_VOL_UP
-&trans     &trans            &trans  &trans  &trans      &trans         &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE    &kp GRAVE   &kp K_VOL_DN
-&trans     &trans            &trans  &trans  &trans      &trans         &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL   &trans      &kp K_PLAY_PAUSE
-           &bt BT_CLR_ALL    &trans  &trans  &sys_reset  &bootloader    &bootloader     &trans                &trans                 &bt BT_PRV  &bt BT_NXT
+&kp TILDE  &bt BT_SEL 0    &bt BT_SEL 1  &trans  &trans      &trans         &trans          &trans                &trans                 &trans      &trans      &kp DEL
+&trans     &trans          &trans        &trans  &trans      &trans         &kp TILDE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS    &trans      &kp K_VOL_UP
+&trans     &trans          &trans        &trans  &trans      &trans         &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE    &kp GRAVE   &kp K_VOL_DN
+&trans     &trans          &trans        &trans  &trans      &trans         &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL   &trans      &kp K_PLAY_PAUSE
+           &bt BT_CLR_ALL  &trans        &trans  &sys_reset  &bootloader    &bootloader     &trans                &trans                 &bt BT_PRV  &bt BT_NXT
             >;
         };
     };
